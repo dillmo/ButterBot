@@ -1,0 +1,265 @@
+<?xml version="1.0" ?><enemy><behaviour><root x="110" y="40"><normal><condition id="isInNamedArea"><string id="area name">HEALAREA</string><string id="team" values="ownenemy">OWN_TEAM</string><string id="who" values="targetself">self</string><string id="Comment">Am I in shop?</string><normal><condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">PiggyBank</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">PiggyBank</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">PiggyBank</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyShootStorm1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyShootStorm1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyShootStorm1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyShootSwarm</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyShootSwarm</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyShootSwarm</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyShootStorm2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyShootStorm2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyShootStorm2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoon</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoon</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoon</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuff</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuff</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuff</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflySpeed</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflySpeed</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflySpeed</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffSpeed1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffSpeed1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffSpeed1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyShootDamage1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyShootDamage1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyShootDamage1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyShootDamage2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyShootDamage2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyShootDamage2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonLifesteal1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonLifesteal1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonLifesteal1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonLifesteal2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonLifesteal2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonLifesteal2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonHalf1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonHalf1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonHalf1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonHalf2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonHalf2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonHalf2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonSlow1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonSlow1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonSlow1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyCocoonSlow2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyCocoonSlow2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyCocoonSlow2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">addHealth3</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">addHealth3</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">addHealth3</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffAbsorb1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffAbsorb1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffAbsorb1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffAbsorb2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffAbsorb2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffAbsorb2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffHeal1</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffHeal1</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffHeal1</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffHeal2</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffHeal2</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffHeal2</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+<condition id="isUpgradeEnabled">
+<string id="condition" values="yesno">no</string>
+<string id="upgrade name">ButterflyBuffHeal3</string>
+<normal><condition id="canPayUpgrade">
+<string id="upgrade name">ButterflyBuffHeal3</string>
+<normal><action id="buyUpgrade">
+<string id="upgrade name">ButterflyBuffHeal3</string>
+</action></normal>
+</condition>
+</normal>
+<else>
+</else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></else></condition></normal></condition></normal></root></behaviour></enemy>
